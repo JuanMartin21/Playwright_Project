@@ -10,5 +10,11 @@ test.describe("When logging in on the homepage", () => {
   test("Should login with valid credentials", async ({ page }) => {
     const login = new loginPage(page);
     await login.authenticateUser(homePage.userName, homePage.password);
+    await expect(page.getByText('Products')).toBeVisible();
   });
+  test.afterEach(async ({ page }) => {
+    const Logout = new loginPage(page);
+    await Logout.logout();
+  });
+  
 });
