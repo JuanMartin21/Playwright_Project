@@ -1,0 +1,51 @@
+{
+  "business": "Olivera S.C.",
+  "CustomerName": "Automation test",
+  "agent": "Tran-Davidson",
+  "client": "luis Automation",
+  "quantityContainers": "4",
+  "messenger": "Éxito",
+  "quote": [
+    {
+      "movementType": "Importación",
+      "tripType": "Port to Port",
+      "service": "Marítima",
+      "productType": "FCL",
+      "office": "México",
+      "incoterm": "FOB",
+      "containerType": "20 Dry Standard",
+      "quantity": "2",
+      "weight": "1000"
+    }
+  ],
+  "trayectos": {
+    "originPort": "Shanghai",
+    "destinationPort": "Puerto de Guaymas",
+    "originAirport": "Miami",
+    "destinationAirport": "El Dorado",
+    "originCity": "Penang",
+    "destinationCity": "Medellín",
+    "postalCode": "0909",
+    "originPortLCL": "Nantong",
+    "destinationPortLCL": "Shantou",
+    "originCountry": "Colombia",
+    "destinationCountry": "Colombia"
+  },
+  "commodity": "Café, té, yerba mate y especias",
+  "productValue": "3000",
+  "productName": "Café",
+  "comment": "pruebas automatizadas",
+  "crmItems": {
+    "enableFillCrmItemsFields": true,
+    "crmItemId": "100101"
+  },
+  "cargoValue": "500",
+  "commodities": {
+    "name": "Aceites Lubricantes",
+    "merchandiseValue": "1000",
+    "productName": "Café"
+  },
+  "reasonChange": "Valores: revisar tarifa alta",
+  "fareDifference": "15% a 20%",
+  "detailChange": "La tarifa del flete no es competitiva"
+}
